@@ -49,3 +49,50 @@ img{
     width: 64%;
 }
 
+header{
+    border: solid;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+p{
+    margin: -1px;
+}
+
+#separator{
+
+    margin-top: 60px;
+}
+form{
+    border: solid;
+    padding: 100px;
+}
+#doublecol{
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+    display: block;
+    font-family: 'Signika Negative', sans-serif;
+}
+label{
+    justify-self: center;
+    display: block;
+    }
+
+.formdiv{
+    border: solid;
+    flex:1
+}
+#footer{
+    padding: 20px;
+}
+
+label{
+font-family: 'Courier New', Courier, monospace;
+}
