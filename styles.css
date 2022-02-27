@@ -138,3 +138,7 @@ button{
 #footer{
     height: 15%;
 }
+
+input:focus:required:invalid{
+    border: red 1px solid;
+}

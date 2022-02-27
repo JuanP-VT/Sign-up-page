@@ -29,19 +29,19 @@
                     <fieldset id="doublecol">
                         <div class="formdiv">
                             <label for="name"> First Name</label>
-                            <input type="text" name="name" id="name" placeholder="Name">
+                            <input type="text" name="name" id="name" placeholder="First Name" required>
                             <label for="email"> Email</label>
-                            <input type="email" name="email" id="email">
-                            <label for="password"> Password</label>
-                            <input type="password" name="password" id="password" required>
+                            <input type="email" name="email" id="email" placeholder="eg. Cv.JuanP@gmail.com" required>
+                            <label for="password"> Password </label>
+                            <input type="password" name="password" id="password" placeholder="Must contain at least 6 characters with 1 capital letter and 1 number" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{6,}$" required>
                         </div>
                         <div class="formdiv">
                             <label for="lastname">Last Name</label>
-                            <input type="text" name="lastname" id="lastname">
+                            <input type="text" name="lastname" id="lastname" placeholder="Last Name" required> 
                             <label for="phonenum"> Phone Number</label>
-                            <input type="number" name="phonenum" id="phonenum">
+                            <input type="number" name="phonenum" id="phonenum" placeholder=" eg. 6682315176" >
                             <label for="rpassword">Repeat Password</label>
-                            <input type="password" name="rpassword" id="rpassword" required>
+                            <input type="password" name="rpassword" id="rpassword" placeholder="requieres JS" required>
                         </div>
                     </fieldset>
                 </div>
