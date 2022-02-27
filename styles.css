@@ -58,18 +58,28 @@ background: linear-gradient(180deg, rgba(12,13,19,1) 0%, rgba(23,23,27,1) 49%, r
     font-size:  1.8rem;
     display: flex;
     flex-direction: column;
-    padding: 80px;
-    height: 20%;
-    color: rgb(38, 99, 95);
+    color: rgb(255, 255, 255);
 }
+#blackflag{
+    background-color: black;
+    opacity: 0.5;  
+    width: 100%;
+    height: 20%;
+    margin-top: 13.4%;
+    height: 190px;
+    box-sizing: border-box;
+    padding: 50px;
+ 
 
+}
 p{
     margin: -1px;
 }
 
 #separator{
 
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 h1{
     margin-left: 30px;
@@ -114,6 +124,7 @@ label{
 .formdiv{
     flex:1;
     padding: 20px;
+    margin-left: 80px;
 }
 #footer{
     padding: 20px;
