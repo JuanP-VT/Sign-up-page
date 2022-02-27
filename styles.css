@@ -1,7 +1,6 @@
 html{
     font-family: 'Signika Negative', sans-serif;
     color: aliceblue;
-    background-color: black;
     height: 100%;
 }
 body{
@@ -10,12 +9,12 @@ body{
 
 }
 #imagecontainer{
-    height: 980px;
     background: url(/img/inspiration.jpg)  ; 
     background-size: cover;
     display: flex;
     width: 40vw;
     height: 100vh;
+    border-radius: 1%;
     
 
 }
@@ -51,15 +50,17 @@ img{
 #foarmcontainer{
     width: 60vw;
     height: 100vh;
+    background: rgb(12,13,19);
+background: linear-gradient(180deg, rgba(12,13,19,1) 0%, rgba(23,23,27,1) 49%, rgba(7,8,23,1) 100%);
 }
-
-header{
+    header{
+    font-family: 'Fredoka', sans-serif;
     font-size:  1.8rem;
     display: flex;
     flex-direction: column;
     padding: 80px;
     height: 20%;
-    color: antiquewhite;
+    color: rgb(38, 99, 95);
 }
 
 p{
@@ -72,6 +73,7 @@ p{
 }
 h1{
     margin-left: 30px;
+    margin-top: 120px;
 }
 form{
     width: 100%;
@@ -98,7 +100,8 @@ input{
     width: 80%;
     height: 10px;
     background: transparent;
-    border: 1px solid;
+    border: 1px solid rgb(46, 46, 43);
+    color: aliceblue;
 }
 label{
     display: block;
@@ -116,11 +119,22 @@ label{
     padding: 20px;
 }
 
-
+input:-webkit-autofill {transition: background-color 5000s ease-in-out 0s;}
 input:focus{
-    border: 3px solid #555;
+    border: 3px solid   rgb(192, 109, 1);
+    border-radius: 5%;
+    outline: none;
 }
-
+textarea:focus{
+    outline: none;
+}
+button{
+    padding: 10px;
+    margin-left: 30px;
+    background-color: darkgrey;
+    border: solid 1px;
+    border-radius: 10%;
+}
 #footer{
     height: 15%;
 }
