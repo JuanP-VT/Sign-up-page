@@ -1,0 +1,51 @@
+html{
+    font-family: 'Signika Negative', sans-serif;
+
+}
+body{
+    display: flex;
+}
+#imagecontainer{
+    border: solid;
+    width: 36%;
+    height: 980px;
+    background: url(/img/inspiration.jpg)  ; 
+    background-size: cover;
+    display: flex;
+
+
+}
+#logospace{
+    border: solid;
+    height: 150px;
+    width: 100%;
+    margin-top: 40%;
+    background-color: black;
+    opacity: 0.75;
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    border: solid white;
+    border-radius: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    border-radius: 50%;
+}
+#logotext{
+    font-size: 3rem;
+    color: white;
+    align-self: center;
+    width: 50%;
+    justify-self: center;
+    
+}
+
+#foarmcontainer{
+    border: solid;
+    width: 64%;
+}
+
