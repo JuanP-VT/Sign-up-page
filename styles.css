@@ -52,9 +52,10 @@ img{
     height: 100vh;
     background: rgb(12,13,19);
 background: linear-gradient(180deg, rgba(12,13,19,1) 0%, rgba(23,23,27,1) 49%, rgba(7,8,23,1) 100%);
+font-family: 'Fredoka', sans-serif;
+
 }
     header{
-    font-family: 'Fredoka', sans-serif;
     font-size:  1.8rem;
     display: flex;
     flex-direction: column;
@@ -78,8 +79,14 @@ p{
 
 #separator{
 
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 30px;
+    margin-bottom: -20px;
+    font-size: 2rem;
+    color: rgb(180, 90, 16);
+
+
+
 }
 h1{
     margin-left: 30px;
@@ -98,17 +105,17 @@ form{
     background-color: rgb(15, 14, 14);
     border: rgb(10, 10, 10);;
     padding: 10px;
-    box-shadow: 1px 1px 5px rgb(228, 220, 111);
+    box-shadow: 1px 1px 30px rgb(23, 24, 16);
     margin-bottom: 20px;
 }
 input{
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     display: block;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     border-radius: 5%;
     width: 80%;
-    height: 10px;
+    height: 15px;
     background: transparent;
     border: 1px solid rgb(46, 46, 43);
     color: aliceblue;
@@ -117,7 +124,7 @@ label{
     display: block;
     margin-left: 10px;
     margin-bottom: -5px;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-size: 0.8rem;
     }
 
@@ -132,7 +139,7 @@ label{
 
 input:-webkit-autofill {transition: background-color 5000s ease-in-out 0s;}
 input:focus{
-    border: 3px solid   rgb(192, 109, 1);
+    border: 3px solid   rgb(59, 15, 161);
     border-radius: 5%;
     outline: none;
 }
@@ -140,16 +147,28 @@ textarea:focus{
     outline: none;
 }
 button{
-    padding: 10px;
+    padding: 15px;
     margin-left: 30px;
-    background-color: darkgrey;
+    background-color: rgb(34, 33, 33);
     border: solid 1px;
     border-radius: 10%;
+    color: darkgoldenrod;
+    font-weight: 800;
+    margin-top: -5px;
 }
 #footer{
     height: 15%;
+    margin-top: -5px;
 }
 
 input:focus:required:invalid{
     border: red 1px solid;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color: rgb(40, 40, 117);
 }
