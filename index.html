@@ -1,64 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Signika+Negative:wght@300&display=swap');
-        </style>
-</head>
-<body>
-    <div id="imagecontainer"> 
-        <div id="logospace">
-            <div id="logo"> <img src="/img/PBlogo.png" alt="Developers Logo"></div>
-            <div id="logotext"> We Know You Can Do It...</div>
-        </div>
-        
+      @import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Signika+Negative:wght@300&display=swap");
+    </style>
+  </head>
+  <body>
+    <div id="imagecontainer">
+      <div id="logospace">
+        <div id="logo"><img src="/img/PBlogo.png" alt="Developers Logo" /></div>
+        <div id="logotext">We Know You Can Do It...</div>
+      </div>
     </div>
-    <div id="foarmcontainer"> 
-        <header> <div id="blackflag">
-            <p>This is not a real online service!. You know you need something like this in your life to  help you realize your deepest dreams.</p>
-
+    <div id="foarmcontainer">
+      <header>
+        <div id="blackflag">
+          <p>
+            This is not a real online service!. You know you need something like
+            this in your life to help you realize your deepest dreams.
+          </p>
         </div>
-        
 
-        <span id="separator"><em> <p><em>Sign up now</em>  to get started</p>You know you want to</em> </span>
-
-        </header>
-        <div id="main">
-            <form >
-                <h1> Lets Do This!</h1>
-                <div id="containerform">
-                    <fieldset id="doublecol">
-                        <div class="formdiv">
-                            <label for="name"> First Name</label>
-                            <input type="text" name="name" id="name" placeholder="First Name" required>
-                            <label for="email"> Email</label>
-                            <input type="email" name="email" id="email" placeholder="eg. Cv.JuanP@gmail.com" required>
-                            <label for="password"> Password </label>
-                            <input type="password" name="password" id="password" placeholder="at least 6 characters with 1 capital letter and 1 number" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{6,}$" required>
-                        </div>
-                        <div class="formdiv">
-                            <label for="lastname">Last Name</label>
-                            <input type="text" name="lastname" id="lastname" placeholder="Last Name" required> 
-                            <label for="phonenum"> Phone Number</label>
-                            <input type="number" name="phonenum" id="phonenum" placeholder=" eg. 6682315176" >
-                            <label for="rpassword">Repeat Password</label>
-                            <input type="password" name="rpassword" id="rpassword" required>
-                        </div>
-                    </fieldset>
-                    <button> Create Account</button>
-
-                    
-                </div>
-            </form>
-        </div>
-        <div id="footer">Already have an account?
+        <span id="separator"
+          ><em>
+            <p><em>Sign up now</em> to get started</p>
+            You know you want to</em
+          >
+        </span>
+      </header>
+      <div id="main">
+        <form>
+          <h1>Lets Do This!</h1>
+          <div id="containerform">
+            <fieldset id="doublecol">
+              <div class="formdiv">
+                <label for="name"> First Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="First Name"
+                  required
+                />
+                <label for="email"> Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="eg. Cv.JuanP@gmail.com"
+                  required
+                />
+                <label for="password"> Password </label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="at least 6 characters with 1 capital letter and 1 number"
+                  pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{6,}$"
+                  required
+                />
+              </div>
+              <div class="formdiv">
+                <label for="lastname">Last Name</label>
+                <input
+                  type="text"
+                  name="lastname"
+                  id="lastname"
+                  placeholder="Last Name"
+                  required
+                />
+                <label for="phonenum"> Phone Number</label>
+                <input
+                  type="text"
+                  name="phonenum"
+                  id="phonenum"
+                  placeholder=" eg. 6682315176"
+                />
+                <label for="rpassword">Repeat Password</label>
+                <input
+                  type="password"
+                  name="rpassword"
+                  id="rpassword"
+                  required
+                />
+              </div>
+            </fieldset>
+            <button>Create Account</button>
+          </div>
+        </form>
+      </div>
+      <div id="footer">
+        Already have an account?
         <a href=""> Log in Now!</a>
-        </div>
-        
+      </div>
     </div>
-</body>
+  </body>
 </html>

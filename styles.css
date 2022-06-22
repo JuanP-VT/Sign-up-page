@@ -26,6 +26,10 @@ body {
   justify-content: space-around;
   padding: 20px;
   text-align: center;
+  transition: all 400ms ease-in-out;
+}
+#logospace:hover #logotext {
+  color: rgb(165, 165, 42);
 }
 #logo {
   border-radius: 50%;
@@ -42,6 +46,7 @@ img {
   align-self: center;
   width: 50%;
   justify-self: center;
+  transition: all 400ms ease-in-out;
 }
 
 #foarmcontainer {
@@ -102,6 +107,7 @@ form {
   margin-bottom: 20px;
 }
 input {
+  cursor: pointer;
   padding: 10px;
   margin: 10px;
   display: block;
